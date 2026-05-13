@@ -1,0 +1,9 @@
+[project]
+name = "fake-webscraper-api"
+version = "0.1.0"
+description = "Small fake WebScraper API for integration testing"
+requires-python = ">=3.12"
+dependencies = [
+    "fastapi==0.115.6",
+    "uvicorn==0.32.1"
+]
