@@ -6,6 +6,18 @@ Base URL:
 https://testapi.kernelvm.xyz
 ```
 
+API key:
+
+```text
+teamjaguar-test-key-2026
+```
+
+Header:
+
+```text
+X-API-KEY: teamjaguar-test-key-2026
+```
+
 ## Routes
 
 ```text
@@ -13,12 +25,6 @@ GET /leads/v1/currentweek
 ```
 
 Returns current XML leads.
-
-Header:
-
-```text
-X-API-KEY: any-value
-```
 
 ```text
 POST /test/leads
@@ -42,4 +48,5 @@ Resets back to the default test XML.
 
 ```properties
 webscraperAPIURL=https://testapi.kernelvm.xyz/leads/v1/currentweek
+webscraperX-API-KEY=teamjaguar-test-key-2026
 ```
